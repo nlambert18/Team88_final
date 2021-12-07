@@ -55,21 +55,4 @@ services:
 
   stedi:
 
-    image: scmurdock/stedi
-
-    ports:
-
-    - "4567:4567"
-
-    environment:
-
-      REDIS_HOST: "redis"
-      REDIS_PORT: "6379"
-      REDIS_DB: "0"
-      KAFKA_BROKER: "kafka:0"
-      KAFKA_RISK_TOPIC: "customer-risk-topic"
-
-    depends_on:
-
-      - "redis"
-      - "kafka"
+    image: confluentinc/cp-stedi:5.2.2
