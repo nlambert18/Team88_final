@@ -44,3 +44,7 @@ services:
     depends_on:
 
     - "zookeeper"
+
+  stedi:
+
+    image: confluentinc/cp-stedi:5.2.2
