@@ -55,4 +55,5 @@ services:
 
   stedi:
 
-    image: confluentinc/cp-stedi:5.2.2
+    image: scmurdock/stedi
+    
