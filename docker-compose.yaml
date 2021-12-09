@@ -67,12 +67,13 @@ services:
 
       STEDI_REDIS_CONNECT: "redis:6379"
 
-      STEDI_KAFKA_CONNECT: "kafka:19092"
+      KAFKA_HOST: "kafka"
 
       KAFKA_BROKER: "kafka:0"
 
       KAFKA_RISK_TOPIC: "customer-risk-topic"
-
+      
+      STEDI_KAFKA_CONNECT: "kafka:19092"
     depends_on:
 
       - "redis"
