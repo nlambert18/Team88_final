@@ -10,3 +10,7 @@ Run Docker-compose Up
 
 Wait for it to run for a minute or two
 Open web preview on port 4567 to open up the STEDI GUi
+
+Use username clinicmanager and password Cl1n1cM@n@ger to log in.
+Create new customer.
+Enter info on required fields and hit submit.
