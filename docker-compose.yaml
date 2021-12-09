@@ -65,15 +65,7 @@ services:
 
       REDIS_DB: "0"
 
-<<<<<<< HEAD
       KAFKA_BROKER: "kafka:19092"
-=======
-      STEDI_REDIS_CONNECT: "redis:6379"
-
-      KAFKA_HOST: "kafka"
-
-      KAFKA_BROKER: "kafka:0"
->>>>>>> 3fc04c3f38b169ea1c13992750701b7311f57962
 
       KAFKA_RISK_TOPIC: "customer-risk-topic"
       
